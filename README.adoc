@@ -1,0 +1,3 @@
+# Stable `no_std` helpers for Casper contracts
+
+Replacement for `no-std-helpers` feature of `casper-contract` crate, that can build with **stable** Rust toolchain.
