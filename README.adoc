@@ -1,3 +1,21 @@
-# Stable `no_std` helpers for Casper contracts
+= Stable `no_std` helpers for Casper contracts
 
 Replacement for `no-std-helpers` feature of `casper-contract` crate, that can build with **stable** Rust toolchain.
+
+== Usage
+
+Add `casper-contract-no-std-helpers` dependency:
+
+[source,toml]
+----
+[dependencies]
+casper-contract-no-std-helpers = { version = "0.1.0", "git" = "https://github.com/koxu1996/casper-contract-no-std-helpers"}
+----
+
+Then import it in your program:
+
+[source,rust]
+----
+#[allow(unused)]
+use casper_contract_no_std_helpers;
+----
